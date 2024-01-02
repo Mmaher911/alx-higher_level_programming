@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-for i in range(25, -1, -1):
-    c = i + ord('A')
-    if i % 2 == 1:
-	c += 32
-    print("{:c}".format(c), end="")
+for a in reversed(range(ord("a"), ord("z") + 1)):
+    if a % 2 != 0:
+        a = a - 32
+    print("{:c}".format(a), end="")
