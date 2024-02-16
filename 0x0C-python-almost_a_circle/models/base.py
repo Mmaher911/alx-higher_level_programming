@@ -155,9 +155,9 @@ class Base:
                     string = ""
                     item = item.to_dictionary()
                     string += (str(item["id"]) + "," +
-                        str(item["width"]) + "," +
-                        str(item["height"]) + "," +
-                        str(item["x"]) + "," + str(item["y"]))
+                               str(item["width"]) + "," +
+                               str(item["height"]) + "," +
+                               str(item["x"]) + "," + str(item["y"]))
                     write_this.writerow(string)
 
             if cls.__name__ == "Square":
@@ -165,8 +165,8 @@ class Base:
                     string = ""
                     item = item.to_dictionary()
                     string += (str(item["id"]) + "," +
-                        str(item["size"]) + "," +
-                        str(item["x"]) + "," + str(item["y"]))
+                               str(item["size"]) + "," +
+                               str(item["x"]) + "," + str(item["y"]))
                     write_this.writerow(string)
 
     @classmethod
