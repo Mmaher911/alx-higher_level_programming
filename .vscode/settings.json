@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "0x0C-python-almost_a_circle"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
